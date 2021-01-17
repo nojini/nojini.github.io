@@ -37,7 +37,24 @@ body {
     color: #fff;
     background-color: #6a2c70;
 }
+.section-header {
+    margin-bottom: 0;
+}
+.project-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 2%;
+}
 
+.project-detail {
+    color: black;
+}
+
+.project-detail p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 #experience {
     color: #fff;
     background-color: #b83b5e;
