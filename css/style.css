@@ -1,31 +1,36 @@
 body {
-    position: relative;
+    padding-top: 60px;
+}
+
+@media (min-width: 980px) {
+    body {
+        padding-top: 30px;
+    }
+}
+
+.container-fluid {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-top: -16px;
 }
 
 #home {
-    padding-top: 50px;
-    height: 500px;
+    padding-top: 60px;
     color: #fff;
     background-color: #6a2c70;
 }
 
 #portfolio {
-    padding-top: 50px;
-    height: 500px;
     color: #fff;
     background-color: #b83b5e;
 }
 
 #experience {
-    padding-top: 50px;
-    height: 500px;
     color: #fff;
     background-color: #f08a5d;
 }
 
 #contact {
-    padding-top: 50px;
-    height: 500px;
     color: #fff;
     background-color: #ffd460;
 }
