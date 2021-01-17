@@ -16,21 +16,34 @@ body {
 
 #home {
     padding-top: 60px;
-    color: #fff;
-    background-color: #6a2c70;
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,2.0) 100%), url(../images/devops_blue.jpg);
+}
+
+#name {
+    font-weight: 800;
+}
+
+#job-title {
+    font-weight: 300;
 }
 
 #portfolio {
     color: #fff;
-    background-color: #b83b5e;
+    background-color: #6a2c70;
 }
 
 #experience {
     color: #fff;
-    background-color: #f08a5d;
+    background-color: #b83b5e;
 }
 
 #contact {
     color: #fff;
-    background-color: #ffd460;
+    background-color: #f08a5d;
 }
