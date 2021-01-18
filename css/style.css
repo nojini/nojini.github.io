@@ -35,8 +35,26 @@ body {
 
 #portfolio {
     color: #fff;
-    background-color: #6a2c70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/falling-code.jpg);
 }
+
+.project-card-lg {
+    min-height: 635px;
+}
+
+.project-card-m {
+    min-height: 520px;
+}
+
+@media (max-width: 980px) {
+    .project-card-lg, .project-card-m {
+        min-height: 0;
+    }
+}
+
 .section-header {
     margin-bottom: 0;
 }
@@ -57,10 +75,32 @@ body {
 }
 #experience {
     color: #fff;
-    background-color: #b83b5e;
+    font-weight: 600;
+    background-size: cover;
+    background: black no-repeat center;
+    /*background-image: url(../images/source-code.jpg);*/
 }
 
-#contact {
-    color: #fff;
-    background-color: #f08a5d;
+#devops-experience {
+    padding-top: 16px;
+}
+
+.experience-image {
+    width: 30%;
+
+    float: left;
+    display: contents;
+}
+
+.skill-image {
+    max-width: 500px;
+}
+
+.ability-title {
+    display: inline-block;
+    width: 60%;
+}
+
+.ability-score {
+    float: right;
 }
