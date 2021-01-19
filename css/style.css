@@ -118,3 +118,10 @@
         margin-bottom: 230px;
     }
 }
+
+/*Extra Extra Small*/
+@media (max-width: 575px) {
+    #name {
+        font-size: 40px;
+    }
+}
